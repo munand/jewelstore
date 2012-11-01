@@ -13,15 +13,14 @@ two:
   type_of_jewelry: MyString
   image_url: MyString
   price: 9.99
-#START:ruby
+#START:neck
 
-ruby: 
-  title:       Programming Ruby 1.9
+neck: 
+  name:       Bead Crochet Necklace
   description: 
-    Ruby is the fastest growing and most exciting dynamic
-    language out there.  If you need to get working programs
-    delivered fast, you should add Ruby to your toolbox.
+    Necklace made from crochet lace, pearls, and sterling silver. Crochet worked in ecru no. 10 mercerized cotton thread. Silver wire in 16 gauge (clasp) and 26 gauge. Freshwater pearls in disc shape (green) and seed shape (green, brown, and champagne). Original design
+  type_of_jewelry : Necklace
   price:       49.50
-  image_url:   ruby.png 
-#END:ruby
+  image_url:   Sea_necklace.png 
+#END:neck
 
