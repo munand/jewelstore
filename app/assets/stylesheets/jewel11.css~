@@ -102,7 +102,7 @@
 }
 
 #side a {
-  color: #bfb;
+  color: #bf0;
   font-size: small;
 }
 /* END:mainlayout */
@@ -153,4 +153,9 @@
   font-weight: bold;
   margin-right: 2em;
 }
+
+#store .entry form, #store .entry form div {
+display: inline;
+}
+
 
