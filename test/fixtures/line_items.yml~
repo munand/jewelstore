@@ -2,7 +2,7 @@
 
 one:
   product: neck
-  order: one
+  cart: one
 
 two:
   product: neck
