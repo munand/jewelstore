@@ -29,7 +29,7 @@ class ProductsController < ApplicationController
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @product }
-    end
+  end
   end
 
   # GET /products/1/edit
@@ -86,5 +86,13 @@ class ProductsController < ApplicationController
       format.atom
       format.xml { render :xml => @product }
     end
+  end
+  def news
+    @product = Product.news
+
+    respond_to do |format|
+      format.html # news.html.erb
+      format.json { render json: @product }
+  end
   end
 end
